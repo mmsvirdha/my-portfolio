@@ -1,0 +1,145 @@
+.service-section {
+    padding: 60px 20px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive */
+    gap: 16px;
+    padding: 10px;
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+.service-box {
+    background-color: var(--box-color);
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.7),
+    -6px -6px 10px -1px rgba(67, 64, 64, 0.1); /* Softer for dark mode */
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.service-box:hover {
+    /*animation: danceSide 0.5s ease-in-out;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);*/
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.6),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.1),
+    -0.5px -0.5px 0px rgba(255,255,255,0.05),
+    0.5px 0.5px 0px rgba(0,0,0,0.2),
+    0px 12px 10px -10px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    transform: translateY(0.5px);
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+
+.service-box i {
+    font-size: 40px;
+    color: var(--main-color);
+    margin-bottom: 16px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin: 10px 0 12px 0;
+    color: #fff;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+/*.more-about-btn {
+    display: inline-block;
+    margin-top: 8px;
+    !*color: #007bff;*!
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}*/
+
+/*.more-about-btn:hover {
+    color: #0056b3;
+}*/
+
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+.service-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.service-pop-up {
+    background-color: var(--text-color);
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    max-height: 500px;
+    max-width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+
+.service-p {
+    font-size: clamp(14px, 1.5vw, 17px);
+    text-align: left;
+    color: var(--box-color-2);
+    padding: 20px 20px 0 20px;
+    line-height: clamp(20px, 3vw, 30px);
+}
+
+.service-ul {
+    font-size: clamp(13px, 1.3vw, 15px); /* min ~14px, max ~16px */
+    text-align: left;
+    color: var(--box-color-2);
+    padding: 20px;
+}
+
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
+
+.service-ul li {
+    line-height: clamp(20px, 3vw, 30px);
+}
+
+.service-popup-btn-div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    gap: 10px;
+}
+
+.service-popup-btn-connect, .service-popup-btn-close {
+    font-size: clamp(12px, 1vw, 14px);
+    font-weight: 500;
+}
+
+/*    Created by Virdha Musawwir     GitHub: https://github.com/mmsvirdha    Year: 2025    */
